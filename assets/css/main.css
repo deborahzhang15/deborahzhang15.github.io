@@ -2299,6 +2299,7 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
+			max-width: 90%
 		}
 
 		.image.left {
@@ -2314,21 +2315,21 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 35%;
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 90%;
 			}
 
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 90%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 90%;
 			}
 
 /* List */
